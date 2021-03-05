@@ -1,0 +1,17 @@
+@import '../scss/mixins';
+@import '../scss/variables';
+
+.pagination_table__pagination {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: $pagination-height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.pagination {
+    margin: 0;
+}
